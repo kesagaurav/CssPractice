@@ -1,0 +1,38 @@
+.header{
+    display: grid;
+    color: black;
+    justify-content: center;
+    background-color: grey;
+}
+
+.aside{
+    display: grid;
+    color: black;
+    justify-content: left;
+    background-color: grey;
+    position: absolute;
+    grid-template-rows: 100px 150px 50% auto;
+}
+
+.footer{
+    display: grid;
+    color: black;
+    position: relative;
+    top: 350px;
+    left: 5px;
+    justify-content: center;
+    background-color: grey;
+}
+
+.main{
+    display: grid;
+    color: black;
+    justify-content: center;
+    background-color: grey;
+    grid-template-columns: 200% 200% 100% auto;
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 2;
+    grid-row-end: span 1;
+    z-index: 10;
+}
